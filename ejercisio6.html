@@ -8,17 +8,30 @@
 
       .header {
           width: 100%;
-          padding: 50px;
           background-color: green;
           text-align: center;
       }
 
+      .header h1{
+        padding: 30px;
+      }
+
+      @media (max-width: 480px) {
+        .columna{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+      }
+
+      @media (min-width: 481px) {
         .columna{
             float: left;
             width: 33%;
             box-sizing: border-box;
             padding: 20px;
         }
+      }
 
       .columna img {
         width: 100%;
@@ -35,8 +48,7 @@
   <body>
 
     <div class="header">
-      <h1>HOLA!!!</h1>
-      <h1>Este es un ejercisio de grillas</h1>
+      <h1>HOLA!!! <br> Este es un ejercisio de grillas</h1>
     </div>
 
     <div class="columna">
